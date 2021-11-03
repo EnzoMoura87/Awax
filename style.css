@@ -242,6 +242,10 @@ CSS DE ÁREAS ESPECÍFICAS
 .section-services {
     display: flex;
 }
+.section-services img {
+    width: 50px;
+    height: 50px;
+}
 
 .section-service {
     flex: 1;
