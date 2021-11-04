@@ -284,8 +284,9 @@ CSS DE ÁREAS ESPECÍFICAS
     padding: 0px 40px;
 }
 
-.section-projects--filters ul, .section-projects--filters li {
+.section-projects--filters ul {
     list-style: none;
+    font-size: 0;
 }
 
 .section-projects--filters li {
