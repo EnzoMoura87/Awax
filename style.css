@@ -463,6 +463,64 @@ CSS DE ÁREAS ESPECÍFICAS
     background-color: #b88a56;
 }
 
+.section-clients {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-clients--photo img {
+    margin-top: 20px;
+    width: 120px;
+    height: auto;
+}
+
+.section-clients--name {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section-clients--name h5 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #3a3a3a;
+    margin-top: 5px;
+}
+.section-clients--cite {
+    text-align: center;
+    margin-top: 30px;
+    width: 700px;
+}
+
+.section-clients--cite p {
+    font-size: 14px;
+    color: #9b9b9b;
+    margin-top: 10px;
+    line-height: 22px;
+}
+
+.default.light .sliders-pointers {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.default.light .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b88a56;
+    border-radius: 8px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.default.light .pointer.active {
+    background-color: #b88a56;
+}
 
 
 
