@@ -655,6 +655,10 @@ CSS DE ÁREAS ESPECÍFICAS
     flex: 1;
 }
 
+.section-premium--right .button {
+    margin-left: 150px;
+}
+
 .section-premium--item {
     display: flex;
     margin-bottom: 20px;
@@ -682,6 +686,105 @@ CSS DE ÁREAS ESPECÍFICAS
     font-size: 13px;
     line-height: 22px;
 }
+
+.section-facts {
+    display: flex;
+}
+
+.section-fact {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.section-fact h3 {
+    color:#b88a56;
+    font-size: 45px;
+}
+
+.section-fact-line {
+    width: 15px;
+    border-bottom: 3px solid #555;
+    margin: auto;
+}
+
+.section-fact h4 {
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.section-fact p {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #999;
+}
+
+.section-share {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background:white;
+    color: #999;
+    border-bottom: 1px solid #ddd;
+}
+
+.section-share--legend {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.section-share--legend img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.section-share--item {
+    font-size: 10px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.section-share--icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 13px;
+    background-color: #ccc;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-share--icon.twitter {
+    background-color: #35c6f2;
+}
+
+.section-share--icon.linkedin {
+    background-color: #147cb3;
+}
+
+.section-share--icon.facebook {
+    background-color: #316398;
+}
+
+.section-share--icon.googleplus {
+    background-color: #e54338;
+}
+
+.section-share--icon.pinterest {
+    background-color: #b71c2c;
+}
+
 
 
 
