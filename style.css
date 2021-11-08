@@ -953,7 +953,7 @@ CSS DE ÁREAS ESPECÍFICAS
     height: auto;
 }
 
-@media (min-width:580px) and (max-width:800px) {
+@media (min-width:450px) and (max-width:800px) {
     .logo {
         margin-left:30px;
     }
@@ -1056,7 +1056,10 @@ CSS DE ÁREAS ESPECÍFICAS
 }
 
 
-@media (max-width:580px) {
+
+
+
+@media (max-width:450px) {
     .logo {
         margin-left:30px;
     }
@@ -1190,7 +1193,9 @@ CSS DE ÁREAS ESPECÍFICAS
     }
 
     .section-premium--right .button {
-        margin-left: 80px;
+        position: absolute;
+        margin: auto;
+       
     }
     .section-facts {
         flex-wrap:wrap;
