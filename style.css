@@ -1069,11 +1069,11 @@ CSS DE ÁREAS ESPECÍFICAS
         margin-right:30px;
     }
     nav {
-        display:none;
+        
         position: absolute;
         z-index: 99;
         background-color: rgba(0, 0, 0, 0.9);
-        width: 80vw;
+        width: 70vw;
         height: calc(100vh - 100px);
         top: 100px;
         right: 0;
@@ -1084,7 +1084,7 @@ CSS DE ÁREAS ESPECÍFICAS
 
     .menu li a {
         font-weight:bold;
-        height:60px;
+        height:50px;
         font-size:20px;
         margin-left:30px;
         border:0;
@@ -1219,7 +1219,7 @@ CSS DE ÁREAS ESPECÍFICAS
         max-width: 50%;
         margin: 0;
         justify-content: center;
-        flex-direction: column;
+        flex-direction: column-reverse;
         margin-bottom: 20px;
         
     }
@@ -1358,7 +1358,7 @@ CSS DE ÁREAS ESPECÍFICAS
     }
 
     .footer-area {
-        flex-direction:column;
+        flex-direction:column-reverse;
     }
     .footer-item {
         margin-bottom:20px;
